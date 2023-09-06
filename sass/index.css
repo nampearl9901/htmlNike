@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+}
+body .container {
+  width: 1280px;
+  height: 720px;
+  border-radius: 57px;
+  background: #FFF;
+}
+body .container .header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+body .container .header .logo .logo__left {
+  flex: 1;
+  width: 66px;
+  height: 69px;
+  margin-top: 23px;
+  margin-left: 60px;
+  flex-shrink: 0;
+}
+body .container .header .logo .logo__right {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  font-size: 25px;
+}
+body .container .header .logo .logo__right i {
+  margin-right: 70px;
+}
+body .container .main {
+  position: relative;
+}
+body .container .main .logonike {
+  margin: 142px 134.71px 194.13px 284px;
+  width: 1026px;
+  height: 373.526px;
+  transform: rotate(0.354deg);
+  z-index: 1;
+}
+body .container .main .shoe {
+  position: absolute;
+  z-index: 2;
+  top: -200px;
+  left: 341px;
+}
+body .container .main .content {
+  position: absolute;
+  top: 429px;
+  padding: 2px 4px 5px 5px;
+  left: 1200px;
+}
+body .container .main .content .buttonbuy {
+  font-weight: 500;
+  width: 190px;
+  height: 55px;
+  border-radius: 17px;
+  background: #1F1E1E;
+  color: white;
+}
+body .container .footer {
+  display: flex;
+  padding: 0 0 10px 70px;
+}
+body .container .footer .group1 {
+  margin: 0 167px 50px 0;
+}
+body .container .footer .group1 .color {
+  margin-top: 30px;
+}
+body .container .footer .group1 .color img {
+  margin-left: 8px;
+}
+body .container .footer .group2 {
+  margin: 0 167px 50px 0;
+  width: 230px;
+  height: 27px;
+  color: #000;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1.5px;
+}
+body .container .footer .group2 .lorem {
+  margin-top: 30px;
+}
+body .container .footer .group3 {
+  margin: 0 167px 50px 0;
+}
+body .container .footer .group3 .money {
+  margin-top: 30px;
+}/*# sourceMappingURL=index.css.map */
